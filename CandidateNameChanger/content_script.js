@@ -34,9 +34,9 @@ for (var i = 0; i < elements.length; i++) {
 			replacedText4 = text.replace(regex4, "Satan's Underpants");
 			replacedText5 = text.replace(regex5, '5DorraSuckySucky');
 
-            if (replacedText !== text) {
-                element.replaceChild(document.createTextNode(replacedText), node);
-            } else if (replacedText2 !== text) {
+        		if (replacedText !== text) {
+                		element.replaceChild(document.createTextNode(replacedText), node);
+            		} else if (replacedText2 !== text) {
 				var hasDonald = content.toLowerCase().indexOf("donald") !== -1;
 				if (hasDonald) {
 					element.replaceChild(document.createTextNode(replacedText2), node);
